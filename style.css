@@ -65,7 +65,7 @@
   .para {
     margin-top: -10px;
     width: 90%;
-    font-weight: 600;
+    font-weight: 450;
     font-size: 16px;
     text-align: justify;
   }
@@ -98,7 +98,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .line-btn {
     margin-top: 20px;
@@ -189,7 +189,7 @@
   .para {
     margin-top: -10px;
     width: 100%;
-    font-weight: 600;
+    font-weight: 450;
     font-size: 16px;
     /* text-align: justify; */
   }
@@ -222,7 +222,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .line-btn {
     margin-top: 20px;
@@ -317,7 +317,7 @@
   .para {
     margin-top: -5px;
     width: 100%;
-    font-weight: 600;
+    font-weight: 450;
     font-size: 15px;
     text-align: justify;
   }
@@ -352,7 +352,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .line-btn {
     margin-top: 20px;
