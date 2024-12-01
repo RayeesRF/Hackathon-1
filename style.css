@@ -1,0 +1,380 @@
+/* Big Screen CSS */
+@media (min-width: 990px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    box-sizing: border-box;
+  }
+
+  /* Logo CSS */
+  .logo {
+    width: 25vw;
+    height: 10vh;
+    margin: 50px auto;
+    position: sticky;
+    top: 5%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 90px;
+  }
+  .title {
+    margin-top: -5px;
+    color: rgba(0, 122, 0, 0.664);
+    font-size: 22px;
+    font-weight: 700;
+  }
+  /* Main content CSS */
+
+  /* Left side CSS of the Content Here */
+  .main {
+    display: flex;
+    gap: 70px;
+    width: 80vw;
+    height: 90vh;
+    margin: 10px auto;
+    margin-top: 100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .left {
+    width: 50%;
+  }
+  .left-img {
+    margin: 25px 40px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  /* right side CSS of the content */
+  .right {
+    width: 50%;
+  }
+  .heading {
+    font-size: 23px;
+  }
+  .para {
+    margin-top: -10px;
+    width: 90%;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .box {
+    width: 87%;
+    background-color: rgba(191, 240, 240, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .line-animate {
+    width: 90%;
+    height: 6px;
+    background-color: rgba(128, 128, 128, 0.548);
+    position: relative;
+  }
+  .line-animate::after {
+    content: "";
+    width: 70%;
+    position: absolute;
+    border: 3px solid rgba(0, 122, 0, 0.664);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .flex {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .line-btn {
+    margin-top: 20px;
+  }
+  .btn {
+    width: 90%;
+    background-color: rgba(0, 122, 0, 0.719);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: -5px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .footer {
+    width: 90%;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+  }
+}
+
+/* Medium Screen CSS - Responsive Design Code */
+
+@media (min-width: 586px) and (max-width: 990px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    box-sizing: border-box;
+  }
+
+  /* Logo CSS */
+  .logo {
+    width: 50vw;
+    margin: 50px auto;
+    text-align: center;
+    position: static;
+    /* top: 5%;
+    left: 53%;
+    transform: translate(-50%, -50%); */
+  }
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  .title {
+    margin-top: -5px;
+    color: rgba(0, 122, 0, 0.664);
+    font-size: 22px;
+    font-weight: 700;
+  }
+  /* Main content CSS */
+
+  /* Left side CSS of the Content Here */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 70px;
+    width: 80vw;
+    margin: 70px auto;
+  }
+  .left {
+    width: 80%;
+  }
+  .left-img {
+    margin: 25px 40px;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  /* right side CSS of the content */
+  .right {
+    margin: auto;
+    width: 80%;
+  }
+  .heading {
+    font-size: 23px;
+  }
+  .para {
+    margin-top: -10px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    /* text-align: justify; */
+  }
+  .box {
+    width: 100%;
+    background-color: rgba(191, 240, 240, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .line-animate {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(128, 128, 128, 0.548);
+    position: relative;
+  }
+  .line-animate::after {
+    content: "";
+    width: 70%;
+    position: absolute;
+    border: 3px solid rgba(0, 122, 0, 0.664);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .line-btn {
+    margin-top: 20px;
+  }
+  .btn {
+    width: 90%;
+    background-color: rgba(0, 122, 0, 0.719);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: -5px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .footer {
+    width: 90%;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+  }
+}
+
+/* Small Screen Responsive Design Code using CSS */
+
+@media (max-width: 586px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    box-sizing: border-box;
+  }
+  /* Logo CSS */
+  .logo {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    position: static;
+    /* top: 5%;
+        left: 53%;
+        transform: translate(-50%, -50%); */
+  }
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  .title {
+    margin-top: -5px;
+    color: rgba(0, 122, 0, 0.664);
+    font-size: 22px;
+    font-weight: 700;
+  }
+  /* Main content CSS */
+
+  /* Left side CSS of the Content Here */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    width: 90vw;
+    margin: 30px auto;
+    /* left: 50%;
+        top: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%); */
+  }
+  .left {
+    width: 80%;
+  }
+  .left-img {
+    margin: 25px 40px;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  /* right side CSS of the content */
+  .right {
+    margin: auto;
+    width: 80%;
+  }
+  .heading {
+    font-size: 23px;
+  }
+  .para {
+    margin-top: -5px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .box {
+    width: 97%;
+    background-color: rgba(191, 240, 240, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+  }
+  .line-animate {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(128, 128, 128, 0.548);
+    position: relative;
+  }
+  .line-animate::after {
+    content: "";
+    width: 70%;
+    position: absolute;
+    border: 3px solid rgba(0, 122, 0, 0.664);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .line-btn {
+    margin-top: 20px;
+  }
+  .btn {
+    width: 100%;
+    background-color: rgba(0, 122, 0, 0.719);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -5px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+  }
+}
